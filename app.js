@@ -23,6 +23,6 @@ app.get("/contact", function(req, res){
     res.render("contact")
 })
 
-app.listen(3000, function(){
+app.listen(8080, function(){
     console.log("Running on Port 3k")
 })
