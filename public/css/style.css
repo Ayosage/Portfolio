@@ -1,0 +1,38 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+}
+
+ul{
+    display: flex;
+    margin-right: 10rem;
+}
+
+.btn{
+    margin: 1rem;
+    width: auto;
+    height: 2rem;
+    background-color: orange;
+}
+
+.project-display-card{
+   
+    width: 15rem;
+    height: 10rem;
+    overflow: hidden;
+    background-color: bisque;
+    color: black;
+}
+
+.project-card-description{
+   
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
