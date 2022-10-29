@@ -1,9 +1,12 @@
 let express = require("express");
 let ejs = require("ejs");
+let path = require("path")
 let app = express();
 
+
+
 app.use(express.urlencoded({extended:true}));
-app.use(express.static("public"))
+app.use(express.static(("public")));
 app.set("view engine", "ejs");
 
 app.get("/", function(req, res){
