@@ -1,6 +1,6 @@
-# fly.toml file generated for proud-cherry-7014 on 2022-10-25T20:31:31-04:00
+# fly.toml file generated for brandonjoshua on 2022-10-30T08:57:46-04:00
 
-app = "proud-cherry-7014"
+app = "brandonjoshua"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

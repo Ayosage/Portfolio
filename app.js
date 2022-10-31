@@ -14,10 +14,6 @@ app.get("/", function(req, res){
 
 })
 
-app.get("/journey", function(req, res){
-    res.render("journey")
-})
-
 app.get("/projects", function(req, res){
     res.render("projects")
 })
