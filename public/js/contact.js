@@ -1,4 +1,6 @@
-console.log("index js")
+console.log("contact js")
+
+
 
 window.onload = () => {
     $(".container-left").toggleClass("transition-in-1")
@@ -10,18 +12,10 @@ window.onload = () => {
         anchor.addEventListener("click", e =>{
             e.preventDefault();
             let target = e.target.href;
-            let svg = $(".svg")
-            console.log(svg[0])
-            svg[0].animate({
-                right: "-50%"
-            }, 500)
-            $(".container-left").toggleClass("transition-out-1")
-           
-
-            
+            $(".container-left").toggleClass("transition-out-1");
             setTimeout(() => {
                 window.location.href = target;
-            }, 500)
+            }, 400)
         })
        
     }
@@ -29,15 +23,6 @@ window.onload = () => {
 
    
 
-    setTimeout(() => {
-       $(".text-left").css("--newWidth", "65%")
-    },2000)
+   
 }
-
-
-
-
-
-
-
 

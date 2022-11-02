@@ -3,7 +3,7 @@ console.log("projects.js")
 window.onload = () => {
     $(".container-right").toggleClass("transition-in-2")
     $(".container-right").css("left", "0")
-    let link = $("a")
+    let link = $(".btn")
     for(let i = 0; i <link.length; i++){
         const anchor = link[i];
 
@@ -13,7 +13,7 @@ window.onload = () => {
             $(".container-right").toggleClass("transition-out-2")
             setTimeout(() => {
                 window.location.href = target;
-            }, 900)
+            }, 400)
         })
        
     }

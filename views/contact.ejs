@@ -1,4 +1,26 @@
 <%- include("partials/header.ejs")%>
 
- <p>contact</p>
-<%- include("partials/footer.ejs") %> 
+<div class="container-left">
+    <form action="https://formsubmit.io/send/097f3f46-ac14-4296-804d-039d572abe35" method="POST">
+        <title>Contact Me</title>
+    
+        <label for="">Name</label>
+        <input name="name" type="text" placeholder="Name" required>
+    
+        <label for="">Email</label>
+        <input name="email" type="email" placeholder="Name" required>
+    
+        <label for="message">Message</label>
+        <textarea name="message" id="" cols="30" rows="15" placeholder="Whats Up?" required></textarea>
+    
+        <button type="submit">Submit</button>
+    
+    
+     </form>
+</div>
+ 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/contact.js"></script>
+
+</html>
