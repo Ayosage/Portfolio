@@ -4,8 +4,7 @@ let path = require("path")
 let app = express();
 
 // to do -
-// Style Contact Form
-// finish styling projects page - done? maybe second look
+// touch up styling
 // responsive 
 
 app.use(express.urlencoded({extended:true}));
